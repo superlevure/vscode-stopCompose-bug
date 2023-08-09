@@ -1,0 +1,6 @@
+version: '3.8'
+
+services:
+  APP_NAME:
+    image: ubuntu:latest
+    command: '/bin/bash -c "trap : TERM INT; sleep infinity & wait"'

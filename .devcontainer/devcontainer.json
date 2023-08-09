@@ -1,0 +1,8 @@
+{
+    "workspaceFolder": "/home",
+    "dockerComposeFile": [
+        "${localWorkspaceFolder}/deploy/docker-compose.yml"
+    ],
+    "service": "APP_NAME",
+    "shutdownAction": "stopCompose"
+}
